@@ -1,0 +1,177 @@
+﻿  Bob.cpp
+G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Bob.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(12,9): error C2146: syntax error: missing ';' before identifier 'velocity'
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(11,31): warning C4834: discarding return value of function with [[nodiscard]] attribute
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(12,17): error C2059: syntax error: '.'
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(14,42): error C2039: 'Right': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(14,42): error C2065: 'Right': undeclared identifier
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(17,42): error C2039: 'Up': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(17,42): error C2065: 'Up': undeclared identifier
+  Crea el teu motor de videojocs.cpp
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Crea el teu motor de videojocs.cpp(2,5): error C2065: 'Game': undeclared identifier
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Crea el teu motor de videojocs.cpp(2,10): error C2146: syntax error: missing ';' before identifier 'motor'
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Crea el teu motor de videojocs.cpp(2,10): error C2065: 'motor': undeclared identifier
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Crea el teu motor de videojocs.cpp(3,5): error C2065: 'motor': undeclared identifier
+  Game.cpp
+G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,23): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'sf::VideoMode'
+      G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,23):
+      'sf::VideoMode::VideoMode': no overloaded function could convert all the argument types
+          G:\2025-2026\SFML64\include\SFML\Window\VideoMode.hpp(61,5):
+          could be 'sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)'
+              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,23):
+              'sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)': cannot convert argument 1 from 'int' to 'sf::Vector2u'
+                  G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,24):
+                  'sf::Vector2<unsigned int>::Vector2': no overloaded function could convert all the argument types
+                      G:\2025-2026\SFML64\include\SFML\System\Vector2.hpp(205,1):
+                      could be 'sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,24):
+                          'sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)': cannot convert argument 1 from 'int' to 'sf::Vector2<unsigned int> &&'
+                              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,24):
+                              Reason: cannot convert from 'int' to 'sf::Vector2<unsigned int>'
+                              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,24):
+                              Conversion requires a second user-defined-conversion operator or constructor
+                      G:\2025-2026\SFML64\include\SFML\System\Vector2.hpp(205,1):
+                      or       'sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,24):
+                          'sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)': cannot convert argument 1 from 'int' to 'const sf::Vector2<unsigned int> &'
+                              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,24):
+                              Reason: cannot convert from 'int' to 'const sf::Vector2<unsigned int>'
+                              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,24):
+                              Conversion requires a second user-defined-conversion operator or constructor
+                      G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,24):
+                      while trying to match the argument list '(int)'
+          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,23):
+          while trying to match the argument list '(int, int)'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,13): error C2665: 'sf::RenderWindow::RenderWindow': no overloaded function could convert all the argument types
+      G:\2025-2026\SFML64\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      could be 'sf::RenderWindow::RenderWindow(sf::RenderWindow &&)'
+          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,13):
+          'sf::RenderWindow::RenderWindow(sf::RenderWindow &&)': cannot convert argument 1 from 'const char [6]' to 'sf::RenderWindow &&'
+              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,35):
+              Reason: cannot convert from 'const char [6]' to 'sf::RenderWindow'
+      G:\2025-2026\SFML64\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      or       'sf::RenderWindow::RenderWindow(const sf::RenderWindow &)'
+          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,13):
+          'sf::RenderWindow::RenderWindow(const sf::RenderWindow &)': cannot convert argument 1 from 'const char [6]' to 'const sf::RenderWindow &'
+              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,35):
+              Reason: cannot convert from 'const char [6]' to 'const sf::RenderWindow'
+      G:\2025-2026\SFML64\include\SFML\Graphics\RenderWindow.hpp(127,5):
+      or       'sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)'
+          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,13):
+          'sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)': cannot convert argument 1 from 'const char [6]' to 'sf::WindowHandle'
+              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,35):
+              Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(4,13):
+      while trying to match the argument list '(const char [6])'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(6,19): error C2512: 'sf::Text': no appropriate default constructor available
+      G:\2025-2026\SFML64\include\SFML\Graphics\Text.hpp(56,25):
+      see declaration of 'sf::Text'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(13,10): error C2039: 'loadFromFile': is not a member of 'sf::Font'
+      G:\2025-2026\SFML64\include\SFML\Graphics\Font.hpp(63,25):
+      see declaration of 'sf::Font'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,15): error C2665: 'sf::Text::Text': no overloaded function could convert all the argument types
+      G:\2025-2026\SFML64\include\SFML\Graphics\Text.hpp(93,5):
+      could be 'sf::Text::Text(const sf::Font &&,sf::String,unsigned int)'
+          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,15):
+          'sf::Text::Text(const sf::Font &&,sf::String,unsigned int)': cannot convert argument 1 from 'const char [6]' to 'const sf::Font &&'
+              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+              Reason: cannot convert from 'const char [6]' to 'const sf::Font'
+              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+              'sf::Font::Font': no overloaded function could convert all the argument types
+                  G:\2025-2026\SFML64\include\SFML\Graphics\Font.hpp(463,1):
+                  could be 'sf::Font::Font(sf::Font &&)'
+                      G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                      'sf::Font::Font(sf::Font &&)': cannot convert argument 1 from 'const char [6]' to 'sf::Font &&'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                          Reason: cannot convert from 'const char [6]' to 'sf::Font'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  G:\2025-2026\SFML64\include\SFML\Graphics\Font.hpp(463,1):
+                  or       'sf::Font::Font(const sf::Font &)'
+                      G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                      'sf::Font::Font(const sf::Font &)': cannot convert argument 1 from 'const char [6]' to 'const sf::Font &'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                          Reason: cannot convert from 'const char [6]' to 'const sf::Font'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                  while trying to match the argument list '(const char [6])'
+      G:\2025-2026\SFML64\include\SFML\Graphics\Text.hpp(87,5):
+      or       'sf::Text::Text(const sf::Font &,sf::String,unsigned int)'
+          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,15):
+          'sf::Text::Text(const sf::Font &,sf::String,unsigned int)': cannot convert argument 1 from 'const char [6]' to 'const sf::Font &'
+              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+              Reason: cannot convert from 'const char [6]' to 'const sf::Font'
+              G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+              'sf::Font::Font': no overloaded function could convert all the argument types
+                  G:\2025-2026\SFML64\include\SFML\Graphics\Font.hpp(463,1):
+                  could be 'sf::Font::Font(sf::Font &&)'
+                      G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                      'sf::Font::Font(sf::Font &&)': cannot convert argument 1 from 'const char [6]' to 'sf::Font &&'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                          Reason: cannot convert from 'const char [6]' to 'sf::Font'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  G:\2025-2026\SFML64\include\SFML\Graphics\Font.hpp(463,1):
+                  or       'sf::Font::Font(const sf::Font &)'
+                      G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                      'sf::Font::Font(const sf::Font &)': cannot convert argument 1 from 'const char [6]' to 'const sf::Font &'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                          Reason: cannot convert from 'const char [6]' to 'const sf::Font'
+                          G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,16):
+                  while trying to match the argument list '(const char [6])'
+      G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(87,15):
+      while trying to match the argument list '(const char [6], sf::Font, int)'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(88,11): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      G:\2025-2026\SFML64\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.cpp(88,11):
+      while trying to match the argument list '(int, int)'
+  
+  Thomas.cpp
+G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Thomas.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
+      see declaration of 'std::runtime_error'
+      G:\2025-2026\SFML64\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(12,9): error C2146: syntax error: missing ';' before identifier 'velocity'
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(11,35): warning C4834: discarding return value of function with [[nodiscard]] attribute
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(12,17): error C2059: syntax error: '.'
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(13,50): error C2039: 'D': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(13,50): error C2065: 'D': undeclared identifier
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(15,50): error C2039: 'W': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(15,50): error C2065: 'W': undeclared identifier

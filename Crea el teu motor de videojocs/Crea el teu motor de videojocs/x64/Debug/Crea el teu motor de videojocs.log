@@ -1,0 +1,44 @@
+﻿  Bob.cpp
+  Character.cpp
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(11,42): error C2039: 'Left': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(11,42): error C2065: 'Left': undeclared identifier
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(14,42): error C2039: 'Right': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(14,42): error C2065: 'Right': undeclared identifier
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(17,42): error C2039: 'Up': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Bob.cpp(17,42): error C2065: 'Up': undeclared identifier
+  Crea el teu motor de videojocs.cpp
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.h(8,10): error C1083: Cannot open include file: 'Platform.h': No such file or directory
+  (compiling source file 'Crea%20el%20teu%20motor%20de%20videojocs.cpp')
+  
+  Enemy.cpp
+  Game.cpp
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Game.h(8,10): error C1083: Cannot open include file: 'Platform.h': No such file or directory
+  (compiling source file 'Game.cpp')
+  
+  GameObject.cpp
+  Thomas.cpp
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(11,50): error C2039: 'A': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(11,50): error C2065: 'A': undeclared identifier
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(13,50): error C2039: 'D': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(13,50): error C2065: 'D': undeclared identifier
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(15,50): error C2039: 'W': is not a member of 'sf::Keyboard'
+      G:\2025-2026\SFML64\include\SFML\Window\Keyboard.hpp(41,11):
+      see declaration of 'sf::Keyboard'
+  
+G:\2025-2026\Practicas programacion\Crea el teu motor de videojocs\Crea el teu motor de videojocs\Thomas.cpp(15,50): error C2065: 'W': undeclared identifier
+  Generating Code...
